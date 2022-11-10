@@ -1,0 +1,12 @@
+Normalizations..
+
+Issues
+1) Insetion Anomalies
+2) Deletion Anomalies
+3) Updation Anomalies
+
+1st Normal Form
+1) Each column should contain in atomic value
+2) A column should contain values that are of the same type
+3) Each column should have a unique name
+4) Order in which data is saved doesn't matter
