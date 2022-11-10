@@ -1,0 +1,7 @@
+
+.Registration
+3.Login
+4.Flight catalogue
+5.Ticket booking
+6.Payment
+7.Support
