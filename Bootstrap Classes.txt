@@ -1,0 +1,42 @@
+Alignment
+
+1) text-center
+
+
+Alert
+1) alert
+2) alert-primary(or any of the 8 colours)
+if there is a link in the alert, add a class "alert-link" in the a tag.
+
+
+Flex
+1) d-flex
+
+
+Button
+1) btn
+2) btn-primary(or any of the 8 colours)
+3) btn-lg/sm(for size)
+4) Insie div- d-grid and btn btn-primary(full width button)
+5) btn-outline-danger(only outline and text colour)\
+6) button group- grourp of buttons joined together
+	div= btn-group		btn btn-primary(or any of the 8 colours)
+
+Spinner (Loading icon)
+1) in span= spinner spinner grow (pulsating icon)
+2) spinner spinner border (circle loading icon)
+
+Badges
+1) badge bg-primary
+2) badge rounded-pill
+
+Shadow
+1) shadow
+
+Padding
+1) py-(value)
+
+Margin
+1) m-auto (center)
+2) ms-auto(margin start)
+3) me-auto(margin end)

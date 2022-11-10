@@ -1,0 +1,26 @@
+body {
+    height: auto;
+    width: 100vwh;
+}
+.model3 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/model3.jfif);
+    background-size: cover;
+}
+
+.modely {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/modely.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.models {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/models.jfif);
+    background-size: cover;
+
+}

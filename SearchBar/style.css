@@ -1,0 +1,61 @@
+body{
+    background-color: cyan;
+    /* padding: 25% 25% 25% 25%; */
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: white;
+}
+div{
+    background-color: rgb(0, 252, 55);
+    /* text-align: center; */
+    width: 500px;
+    height: 200px;
+    vertical-align: middle;
+}
+
+input[name="firstName"]{
+    height: 23px;
+    width: 400px;
+    border-radius: 4px;
+    border: none;
+}
+input[name="lastName"]{
+    height: 23px;
+    width: 400px;
+    border-radius: 4px;
+    border: none;
+}
+input[name="address"]{
+    height: 23px;
+    width: 400px;
+    border-radius: 4px;
+    border: none;
+}
+
+input[name="confirm"]{
+    height: 23px;
+    width: 400px;
+    border-radius: 4px;
+    border: none;
+}
+
+input[name="cancel"]{
+    height: 23px;
+    width: 400px;
+    border-radius: 4px;
+    border: none;
+}
+.input{
+    /* margin: 0 auto;
+    padding: 10px; */
+    display: flex;
+    column-span: 10px;
+}
+
+/* .buttons{
+    margin: 0 auto;
+    border-radius: 10px;
+} */

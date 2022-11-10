@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Show Data</title>
+</head>
+
+<body>
+    Submitted Data:
+    <input type="button" name="showdata" id="showdata" onclick="showData()" value="Show Data">
+    <script>
+        function saveData() {
+            var firstName = localStorage.getItem('firstName').value;
+            var lastName = localStorage.getItem('lastName').value;
+            var address = localStorage.getItem('address').value;
+            alert('First Name ' + firstName);
+            
+        }
+    </script>
+</body>
+
+</html>

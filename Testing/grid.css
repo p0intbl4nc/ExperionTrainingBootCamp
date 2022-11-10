@@ -1,0 +1,38 @@
+.grid-container{
+    display: grid;
+    row-gap: 50px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    border: 1px solid black;
+}
+
+.grid-item{
+    border: 1px solid black;
+}
+
+.tras{
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    width: 200px;   
+    height: 50 px;
+    border: 1px solid black;
+    background-color: red;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    text-align: center;
+    line-height: 50px;
+    transition: width 2s, height 3s, line-height 3s;
+}
+
+@keyframes example{
+    from{background-color: red;}
+    to{background-color: yellow;}
+}
+
+.tras:hover{
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+}

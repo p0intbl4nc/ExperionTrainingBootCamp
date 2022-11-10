@@ -1,0 +1,20 @@
+.parent{
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    border: 1px solid black;
+    width: 40%;
+    float: left;
+    z-index: 1;
+}
+
+.child{
+    background-color: red;
+    position: relative;
+    top: 30px;
+    right: 50px;
+    border: 1px solid black;
+    width: 40%;
+   float: left;
+}

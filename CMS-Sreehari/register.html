@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link type="image/png" sizes="96x96" rel="icon" href="./assets/images/icons8-car-rental-color-96.png">
+    <link rel="stylesheet" href="./assets/css/register.css" type="text/css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="brand">
+            <img src="./assets/images/favicon.png" alt="Cab Management System" height="30px" width="30px">
+            Cab Management System
+        </div>
+        <div class="userman">
+            <div class="login"><a href="login.html">Login</a></div>
+            <div class="registration"><a href="register.html">Register</a></div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="registerform">
+            <form name="regform" id="regform" onsubmit="validate(event)">
+                <div class="logintitle">User Registration </div>
+                <table class="details">
+                    <tr>
+                        <td><label for="firstName">First Name: </label></td>
+                        <td><input type="text" name="firstName" id="firstName" placeholder="John"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastName">Last Name</label></td>
+                        <td><input type="text" name="lastName" id="lastName" placeholder="Cena"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone"></label>Phone: </td>
+                        <td><input type="number" name="phone" id="phone" placeholder="1234567890" min ="6111111111" max="9999999999" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email: </label></td>
+                        <td><input type="email" id="remail" name="remail" placeholder="Eg. 123@example.com" minlength="7" maxlength="30" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="rpassword">Password: </label></td>
+                        <td><input type="password" id="rpassword" name="rpassword" pattern="(?=^.{8,}$)(?=.*\d)(?=.*[!@#$%^&*]+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" maxlength="30" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="rcPassword">Password: </label></td>
+                        <td><input type="password" id="rcPassword" name="rcPassword" pattern="(?=^.{8,}$)(?=.*\d)(?=.*[!@#$%^&*]+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" maxlength="30" required></td>
+                    </tr>
+                </table>
+                <div class="btn-signup"><input type="submit" id="btn-signup" name="btn-signup" value="Sign Up"></div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="fleft"><a href="index.html">Contact Us</a></div>
+        <div class="fright">    
+            <div class="insta"><a href="index.html">Instagram</a></div>
+            <div class="fb"><a href="index.html">Facebook</a></div>
+        </div>
+    </div>
+    <script src="./assets/scripts/regval.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Management System</title>
+    <link type="image/png" sizes="96x96" rel="icon" href="./assets/images/icons8-car-rental-color-96.png">
+    
+    <link rel="stylesheet" href="./assets/css/index.css" type="text/css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="brand">
+            <img src="./assets/images/favicon.png" alt="Cab Management System" height="30px" width="30px">
+            Cab Management System
+        </div>
+        <div class="userman">
+            <div class="login"><a href="login.html">Login</a></div>
+            <div class="registration"><a href="register.html">Register</a></div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="booking">
+            <form method="POST">
+                <div class="booktitle">Book Your Ride </div>
+                <table class="details">
+                    <tr>
+                        <td><label for="pickup">Pickup location: </label></td>
+                        <td><input type="text" id="pickup" name="pickup" placeholder="Eg. Kochi"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="destination">Destination: </label></td>
+                        <td><input type="text" id="destination" name="destination" placeholder="Eg. Mumbai"></td>
+                    </tr>
+                </table>
+                <div class="submit"><input type="submit" id="submit" name="submit" class="btn btn-primary"></div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="fleft"><a href="index.html">Contact Us</a></div>
+        <div class="fright">
+            <div class="insta"><a href="index.html">Instagram</a></div>
+            <div class="fb"><a href="index.html">Facebook</a></div>
+        </div>
+    </div>
+</body>
+
+</html>

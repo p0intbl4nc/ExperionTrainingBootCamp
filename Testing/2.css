@@ -1,0 +1,18 @@
+div{
+    border: 1px solid black;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.item{
+    width: 30%;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+}

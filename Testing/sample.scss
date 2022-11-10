@@ -1,0 +1,33 @@
+@mixin bordered($color, $width) {
+    border: $color solid $width;
+}
+
+.div-border {
+    @include bordered(blue, 1px);
+}
+
+@mixin background($color) {
+    background-color: $color;
+}
+
+.div {
+    @include background(red);
+}
+
+@mixin nav-color {
+    nav {
+        ul {
+            color: red;
+        }
+
+        // li {
+        //     display: inline-block;
+        // }
+        a{
+            color: rgb(46, 228, 9);
+            font-size: larger;                                                                                                                                                                                                                                                                                                                                                                                                                                              
+        }
+    }
+}
+
+@include nav-color();

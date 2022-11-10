@@ -1,0 +1,52 @@
+body{
+    background-color: #1bf3fe;
+}
+
+.parent1{
+    background-color:  #1bf3fe;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-left: 25%;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    font-size: larger;
+    z-index: 50;
+    /* font-weight: bold; */
+}
+.parent2{
+    margin-top: 70px;
+    margin-left: 25%;
+    background-color:  #1bf3fe;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    font-size: larger;
+    z-index: 50;
+    /* font-weight: bold; */
+}
+
+.child{
+    border: 0px solid;
+    background-color: #03cddc;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    line-height: 125px;
+    z-index: 2;
+}
+
+/* span{
+    visibility: hidden;
+}
+.span:hover{
+    visibility: visible;
+} */

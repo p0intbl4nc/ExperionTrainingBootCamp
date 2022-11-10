@@ -1,0 +1,17 @@
+label[for="dob"] {
+    color: blue;
+}
+
+input{
+    border: 2px solid blue;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.button{
+    cursor: pointer;
+}
+
+#address{
+    padding: auto;
+}

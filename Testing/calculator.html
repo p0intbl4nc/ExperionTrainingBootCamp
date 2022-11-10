@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" type="text/css">
+</head>
+
+<body>
+    <div class="body">
+        <form name="eval">
+            <div class="calc">
+                <div class="row0"><input type="text" id="ans" name="answer"></div>
+                <div class="row1">
+                    <div class="digit button"><input type="button" value="7" onclick="eval.answer.value+='7'"></div>
+                    <div class="digit button"><input type="button" value="8" onclick="eval.answer.value+='8'"></div>
+                    <div class="digit button"><input type="button" value="9" onclick="eval.answer.value+='9'"></div>
+                    <div class="operator button"><input type="button" value="/" onclick="eval.answer.value+='/'"></div>
+                </div>
+                <div class="row2">
+                    <div class="digit button"><input type="button" value="4" onclick="eval.answer.value+='4'"></div>
+                    <div class="digit button"><input type="button" value="5" onclick="eval.answer.value+='5'"></div>
+                    <div class="digit button"><input type="button" value="6" onclick="eval.answer.value+='6'"></div>
+                    <div class="operator button"><input type="button" value="*" onclick="eval.answer.value+='*'"></div>
+                </div>
+                <div class="row3">
+                    <div class="digit"><input type="button" value="3" onclick="eval.answer.value+='3'"></div>
+                    <div class="digit"><input type="button" value="2" onclick="eval.answer.value+='2'"></div>
+                    <div class="digit"><input type="button" value="1" onclick="eval.answer.value+='1'"></div>
+                    <div class="operator button"><input type="button" value="-"     onclick="eval.answer.value+='-'"></div>
+                </div>
+                <div class="row4">
+                    <div class="operator button"><input type="button" value="." onclick="eval.answer.value+='.'"></div>
+                    <div class="digit button"><input type="button" value="0" onclick="eval.answer.value+='0'"></div>
+                    <div class="operator button"><input type="button" value="+" onclick="eval.answer.value+='+'"></div>
+                    <div class="submit button"><input type="button" value="=" onclick="eval.answer.value = eval(eval.answer.value)"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.div-border {
+  border: blue solid 1px;
+}
+
+.div {
+  background-color: red;
+}
+
+nav ul {
+  color: red;
+}
+nav a {
+  color: rgb(46, 228, 9);
+  font-size: larger;
+}/*# sourceMappingURL=sample.css.map */
